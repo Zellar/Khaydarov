@@ -331,3 +331,9 @@ p:last-child {
     margin-bottom: 64px;
   }
 }
+
+@media(min-width: 1441px) {
+    .section-book__slide img {
+        max-height: none;
+    }
+}
