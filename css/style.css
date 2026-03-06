@@ -249,6 +249,16 @@ p:last-child {
       .section-intro__h2 {
         margin-bottom: 20px;
       }
+
+      h1 {
+        font-size: 34px;
+        line-height: 32px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 1;
+    }
 }
 
 @media(max-width: 576px) {
