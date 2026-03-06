@@ -175,6 +175,10 @@ p:last-child {
     margin-bottom: 44px;
 }
 
+.section-book__img img {
+    max-height: 640px;
+}
+
 .section-book__title {
     margin-bottom: 17px;
 }
@@ -334,6 +338,10 @@ p:last-child {
 
 @media(min-width: 1441px) {
     .section-book__slide img {
+        max-height: none;
+    }
+
+    .section-book__img img {
         max-height: none;
     }
 }
