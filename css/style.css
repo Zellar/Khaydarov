@@ -43,6 +43,9 @@ body {
     font-size: 18px;
     line-height: 24px;
     color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 a {
