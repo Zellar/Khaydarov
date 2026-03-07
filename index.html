@@ -5,46 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>TMA</title>
 </head>
 <body>
     <header class="header container">
-        <div class="row">
-            <div class="header__logo col-4 col-md-3">
-                <div class="logo">
-                    <div class="logo__text">
-                        Ruslan Khaydarov.
-                    </div>
-                    <div class="logo__text">
-                        Designer
-                    </div>
+
+        <div class="header__logo">
+            <div class="logo">
+                <div class="logo__text">
+                    Ruslan Khaydarov.
+                </div>
+                <div class="logo__text">
+                    Designer
                 </div>
             </div>
-    
-            <nav class="header__nav col-8 col-md-9">
-                <button class="burger" type="button" aria-label="Menu" aria-expanded="false">
-                    <span class="burger__line"></span>
-                    <span class="burger__line"></span>
-                </button>
-
-                <div class="nav">
-                    <a href="#" class="nav__item">
-                        Work
-                    </a>
-                    <a href="#" class="nav__item">
-                        About
-                    </a>
-                    <a href="#" class="nav__item">
-                        Contact
-                    </a>
-                </div>
-
-                <div class="nav-overlay" hidden></div>
-            </nav>
         </div>
+
+        <nav class="header__nav">
+            <button class="burger" type="button" aria-label="Menu" aria-expanded="false">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+
+            <div class="nav">
+                <a href="#" class="nav__item">
+                    Work
+                </a>
+                <a href="#" class="nav__item">
+                    About
+                </a>
+                <a href="#" class="nav__item">
+                    Contact
+                </a>
+            </div>
+
+            <div class="nav-overlay" hidden></div>
+        </nav>
         
 
     </header>
@@ -61,16 +59,16 @@
 
     <main class="main container">
 
-        <section class="section-intro u-pb-2x row">
-            <div class="section-intro__title col-12 col-md-6">
+        <section class="section-intro u-pb-2x">
+            <div class="section-intro__title">
                 <h1 class="section-intro__h1">
                     Тайны <br> мировой <br> архитектуры
                 </h1>
             </div>
-            <div class="section-intro__text col-12 col-md-6">
-                <h2 class="section-intro__h2">
+            <div class="section-intro__text">
+                <!-- <h2 class="section-intro__h2">
                     8 фильмов-загадок
-                </h2>
+                </h2> -->
                 <p>
                     «Тайны мировой архитектуры» — это самые загадочные и значительные явления в истории человечества, это судьбы людей, это великие тайны великих цивилизаций, неожиданно открывающиеся для нас через призму архитектуры. Дворцы и храмы, затерянные в пространстве и времени города... Восемь фильмов. Каждый из которых — откровение.
                 </p>
@@ -94,15 +92,15 @@
                     alt="" 
                     loading="lazy">
             </div>
-            <div class="section-book__content u-mb row">
-                <div class="section-book__text col-12 col-md-3">
+            <div class="section-book__content u-mb">
+                <div class="section-book__text">
                     <span class="section-book__label">Фильм 1</span>
                     <h2 class="section-book__title">Вольные <br> каменщки</h2>
                     <p>
                         В средние века так называли строителей. «Free Massons» – одни из самых загадочных в мире людей. Их присутствие чувствуется везде но, нигде не бывает явным.
                     </p>
                 </div>
-                <div class="section-book__img col-12 col-md-6 offset-md-3">
+                <div class="section-book__img">
                     <img 
                         srcset="./image/book-img-1.webp 1x, ./image/book-img-1_2x.webp 2x"
                         src="./image/book-img-1.webp.webp" 
@@ -111,22 +109,22 @@
                 </div>
                 
             </div>
-            <div class="section-book__gallery u-mb row">
-                <div class="section-book__slide col-12 col-md-4">
+            <div class="section-book__gallery u-mb">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-1_1.webp 1x, ./image/book-slide-1_1_2x.webp 2x"
                         src="./image/book-slide-1_1.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-1_2.webp 1x, ./image/book-slide-1_2_2x.webp 2x"
                         src="./image/book-slide-1_2.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-1_3.webp 1x, ./image/book-slide-1_3_2x.webp 2x"
                         src="./image/book-slide-1_3.webp" 
@@ -144,15 +142,15 @@
                     alt="" 
                     loading="lazy">
             </div>
-            <div class="section-book__content u-mb row">
-                <div class="section-book__text col-12 col-md-3">
+            <div class="section-book__content u-mb">
+                <div class="section-book__text">
                     <span class="section-book__label">Фильм 2</span>
                     <h2 class="section-book__title">Алхимия Парижа</h2>
                     <p>
                         Тот кто разгадает значение символических барельефов, сможет превращать обычные металлы в золото, исцелять болезни и останавливать время.
                     </p>
                 </div>
-                <div class="section-book__img col-12 col-md-6 offset-md-3">
+                <div class="section-book__img">
                     <img 
                         srcset="./image/book-img-2.webp 1x, ./image/book-img-2_2x.webp 2x"
                         src="./image/book-img-2.webp.webp" 
@@ -161,22 +159,22 @@
                 </div>
                 
             </div>
-            <div class="section-book__gallery u-mb row">
-                <div class="section-book__slide col-12 col-md-4">
+            <div class="section-book__gallery u-mb">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-2_1.webp 1x, ./image/book-slide-2_1_2x.webp 2x"
                         src="./image/book-slide-2_1.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-2_2.webp 1x, ./image/book-slide-2_2_2x.webp 2x"
                         src="./image/book-slide-2_2.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-2_3.webp 1x, ./image/book-slide-2_3_2x.webp 2x"
                         src="./image/book-slide-2_3.webp" 
@@ -194,15 +192,15 @@
                     alt="" 
                     loading="lazy">
             </div>
-            <div class="section-book__content u-mb row">
-                <div class="section-book__text col-12 col-md-3">
+            <div class="section-book__content u-mb">
+                <div class="section-book__text">
                     <span class="section-book__label">Фильм 3</span>
                     <h2 class="section-book__title">Возвращение в рай</h2>
                     <p>
                         Грубо отесанные камни, даже подчеркнуто грубые, шероховатые, теплые. Вот оно, сердце Дамаска. Живое сердце. Джамия Аль Умейи. Большая мечететь Омейядов. 
                     </p>
                 </div>
-                <div class="section-book__img col-12 col-md-6 offset-md-3">
+                <div class="section-book__img">
                     <img 
                         srcset="./image/book-img-3.webp 1x, ./image/book-img-3_2x.webp 2x"
                         src="./image/book-img-3.webp.webp" 
@@ -211,22 +209,22 @@
                 </div>
                 
             </div>
-            <div class="section-book__gallery u-mb row">
-                <div class="section-book__slide col-12 col-md-4">
+            <div class="section-book__gallery u-mb">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-3_1.webp 1x, ./image/book-slide-3_1_2x.webp 2x"
                         src="./image/book-slide-3_1.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-3_2.webp 1x, ./image/book-slide-3_2_2x.webp 2x"
                         src="./image/book-slide-3_2.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-3_3.webp 1x, ./image/book-slide-3_3_2x.webp 2x"
                         src="./image/book-slide-3_3.webp" 
@@ -244,15 +242,15 @@
                     alt="" 
                     loading="lazy">
             </div>
-            <div class="section-book__content u-mb row">
-                <div class="section-book__text col-12 col-md-3">
+            <div class="section-book__content u-mb">
+                <div class="section-book__text">
                     <span class="section-book__label">Фильм 4</span>
                     <h2 class="section-book__title">На пороге неба</h2>
                     <p>
                         «И свет во тьме светит, <br> и тьма не объяла его» <br> От Иоанна, 1.
                     </p>
                 </div>
-                <div class="section-book__img col-12 col-md-6 offset-md-3">
+                <div class="section-book__img">
                     <img 
                         srcset="./image/book-img-4.webp 1x, ./image/book-img-4_2x.webp 2x"
                         src="./image/book-img-4.webp.webp" 
@@ -261,22 +259,22 @@
                 </div>
                 
             </div>
-            <div class="section-book__gallery u-mb row">
-                <div class="section-book__slide col-12 col-md-4">
+            <div class="section-book__gallery u-mb">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-4_1.webp 1x, ./image/book-slide-4_1_2x.webp 2x"
                         src="./image/book-slide-4_1.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-4_2.webp 1x, ./image/book-slide-4_2_2x.webp 2x"
                         src="./image/book-slide-4_2.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-4_3.webp 1x, ./image/book-slide-4_3_2x.webp 2x"
                         src="./image/book-slide-4_3.webp" 
@@ -294,15 +292,15 @@
                     alt="" 
                     loading="lazy">
             </div>
-            <div class="section-book__content u-mb row">
-                <div class="section-book__text col-12 col-md-3">
+            <div class="section-book__content u-mb">
+                <div class="section-book__text">
                     <span class="section-book__label">Фильм 5</span>
                     <h2 class="section-book__title">Тайна великих <br> мореплавателей</h2>
                     <p>
                         «Одежды носить белые, избегать ропота и поцелуя всех женщин»... Из Устава Ордена «Бедных рыцарей и храма Соломона», сокращенно «храмовники». Тамплиеров. «Tample» с французского переводится как «храм».
                     </p>
                 </div>
-                <div class="section-book__img col-12 col-md-6 offset-md-3">
+                <div class="section-book__img">
                     <img 
                         srcset="./image/book-img-5.webp 1x, ./image/book-img-5_2x.webp 2x"
                         src="./image/book-img-5.webp.webp" 
@@ -311,22 +309,22 @@
                 </div>
                 
             </div>
-            <div class="section-book__gallery u-mb row">
-                <div class="section-book__slide col-12 col-md-4">
+            <div class="section-book__gallery u-mb">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-5_1.webp 1x, ./image/book-slide-5_1_2x.webp 2x"
                         src="./image/book-slide-5_1.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-5_2.webp 1x, ./image/book-slide-5_2_2x.webp 2x"
                         src="./image/book-slide-5_2.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-5_3.webp 1x, ./image/book-slide-5_3_2x.webp 2x"
                         src="./image/book-slide-5_3.webp" 
@@ -344,15 +342,15 @@
                     alt="" 
                     loading="lazy">
             </div>
-            <div class="section-book__content u-mb row">
-                <div class="section-book__text col-12 col-md-3">
+            <div class="section-book__content u-mb">
+                <div class="section-book__text">
                     <span class="section-book__label">Фильм 6</span>
                     <h2 class="section-book__title">Загадки Великого Сфинкса</h2>
                     <p>
                         Жители Барселоны клянутся, что в день, когда его хоронили, плакали камни. А дома которые он построил, скорбно склонили башни. Но одних слухов недостаточно, что бы заинтересовать Ватикан. Значит в этой истории есть что то еще...
                     </p>
                 </div>
-                <div class="section-book__img col-12 col-md-6 offset-md-3">
+                <div class="section-book__img">
                     <img 
                         srcset="./image/book-img-6.webp 1x, ./image/book-img-6_2x.webp 2x"
                         src="./image/book-img-6.webp.webp" 
@@ -361,22 +359,22 @@
                 </div>
                 
             </div>
-            <div class="section-book__gallery u-mb row">
-                <div class="section-book__slide col-12 col-md-4">
+            <div class="section-book__gallery u-mb">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-6_1.webp 1x, ./image/book-slide-6_1_2x.webp 2x"
                         src="./image/book-slide-6_1.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-6_2.webp 1x, ./image/book-slide-6_2_2x.webp 2x"
                         src="./image/book-slide-6_2.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-6_3.webp 1x, ./image/book-slide-6_3_2x.webp 2x"
                         src="./image/book-slide-6_3.webp" 
@@ -394,15 +392,15 @@
                     alt="" 
                     loading="lazy">
             </div>
-            <div class="section-book__content u-mb row">
-                <div class="section-book__text col-12 col-md-3">
+            <div class="section-book__content u-mb">
+                <div class="section-book__text">
                     <span class="section-book__label">Фильм 7</span>
                     <h2 class="section-book__title">Зашифрованная мудрость</h2>
                     <p>
                         Говорят, что сверху это похоже на крест. Или на самолет. Но многие утверждают, что священная птица Ибис, которая в древнем Египте символизировала Тота – бога правосудия и мудрости.
                     </p>
                 </div>
-                <div class="section-book__img col-12 col-md-6 offset-md-3">
+                <div class="section-book__img">
                     <img 
                         srcset="./image/book-img-7.webp 1x, ./image/book-img-7_2x.webp 2x"
                         src="./image/book-img-7.webp.webp" 
@@ -411,22 +409,22 @@
                 </div>
                 
             </div>
-            <div class="section-book__gallery u-mb row">
-                <div class="section-book__slide col-12 col-md-4">
+            <div class="section-book__gallery u-mb">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-7_1.webp 1x, ./image/book-slide-7_1_2x.webp 2x"
                         src="./image/book-slide-7_1.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-7_2.webp 1x, ./image/book-slide-7_2_2x.webp 2x"
                         src="./image/book-slide-7_2.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-7_3.webp 1x, ./image/book-slide-7_3_2x.webp 2x"
                         src="./image/book-slide-7_3.webp" 
@@ -444,15 +442,15 @@
                     alt="" 
                     loading="lazy">
             </div>
-            <div class="section-book__content u-mb row">
-                <div class="section-book__text col-12 col-md-3">
+            <div class="section-book__content u-mb">
+                <div class="section-book__text">
                     <span class="section-book__label">Фильм 8</span>
                     <h2 class="section-book__title">Когда улыбаются Боги</h2>
                     <p>
                         Ангкор. Таинственный город. Древняя легенда гласит, что ни одно не обходилось в Ангкоре без вмешательства богов. Их присутствие ощущаешь почте физически. Глаза в которые нельзя заглянуть, смотрят вам в спину с каменных барельефов и улыбаются...
                     </p>
                 </div>
-                <div class="section-book__img col-12 col-md-6 offset-md-3">
+                <div class="section-book__img">
                     <img 
                         srcset="./image/book-img-8.webp 1x, ./image/book-img-8_2x.webp 2x"
                         src="./image/book-img-8.webp.webp" 
@@ -461,22 +459,22 @@
                 </div>
                 
             </div>
-            <div class="section-book__gallery u-mb row">
-                <div class="section-book__slide col-12 col-md-4">
+            <div class="section-book__gallery u-mb">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-8_1.webp 1x, ./image/book-slide-8_1_2x.webp 2x"
                         src="./image/book-slide-8_1.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-8_2.webp 1x, ./image/book-slide-8_2_2x.webp 2x"
                         src="./image/book-slide-8_2.webp" 
                         alt="" 
                         loading="lazy">
                 </div>
-                <div class="section-book__slide col-12 col-md-4">
+                <div class="section-book__slide">
                     <img 
                         srcset="./image/book-slide-8_3.webp 1x, ./image/book-slide-8_3_2x.webp 2x"
                         src="./image/book-slide-8_3.webp" 
@@ -489,26 +487,24 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer__logo col-12 col-md-3">
-                    <div class="logo">
-                        <div class="logo__text">
-                            Ruslan Khaydarov.
-                        </div>
-                        <div class="logo__text">
-                            Designer
-                        </div>
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <div class="logo">
+                    <div class="logo__text">
+                        Ruslan Khaydarov.
+                    </div>
+                    <div class="logo__text">
+                        Designer
                     </div>
                 </div>
-                <div class="footer__contacts col-12 col-md-3">
-                    <a href="#" class="footer__link">
-                        Mail: deruslan2000@gmail.com
-                    </a>
-                    <a href="#" class="footer__link">
-                        Telegram: de_ruslan
-                    </a>
-                </div>
+            </div>
+            <div class="footer__contacts">
+                <a href="#" class="footer__link">
+                    Mail: deruslan2000@gmail.com
+                </a>
+                <a href="#" class="footer__link">
+                    Telegram: de_ruslan
+                </a>
             </div>
         </div>
     </footer>
