@@ -60,7 +60,7 @@ img {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 48px;
     line-height: 1;
 }
 
@@ -601,3 +601,4 @@ p:last-child {
         max-height: none;
     }
 }
+
