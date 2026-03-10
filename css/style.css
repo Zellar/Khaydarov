@@ -359,11 +359,11 @@ p:last-child {
 }
 
 .section-about__text-block {
-    width: calc(25% - 8px);
+    width: calc(33.33% - 8px);
 }
 
 .section-about__img-block {
-    width: calc(25% - 8px);
+    width: calc(33.33% - 8px);
     padding-top: 9px;
 }
 
@@ -601,4 +601,5 @@ p:last-child {
         max-height: none;
     }
 }
+
 
