@@ -380,6 +380,7 @@ p:last-child {
 .hero__img--main {
     object-fit: contain;
     object-position: bottom;
+    height: auto;
 }
 
 .hero--main {
