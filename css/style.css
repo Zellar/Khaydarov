@@ -226,7 +226,8 @@ p:last-child {
 } */
 
 .section-book__title {
-    margin-bottom: 17px;
+    margin-bottom: 33px;
+    margin-top: -11px;
 }
 
 .section-book__text p {
@@ -374,6 +375,85 @@ p:last-child {
 .section-contacts__text {
     display: flex;
     flex-direction: column;
+}
+
+.hero__img--main {
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.hero--main {
+    margin-bottom: 248px;
+}
+
+.section-main {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    padding-bottom: 242px;
+}
+
+.section-main__h1 {
+    margin-bottom: 53px;
+}
+
+.section-main__text-block {
+    width: calc(50% - 8px);
+}
+
+.section-process {
+    padding-bottom: 247px;
+}
+
+.section-process__h1 {
+    margin-bottom: 65px;
+}
+
+.section-process__graph {
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr 2fr 3fr;
+    gap: 16px;
+}
+
+.ball-block {
+    min-height: 208px;
+    aspect-ratio: 1 / 1;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball-block__text {
+    color: #fff;
+}
+
+.arrow-block {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-block__img {
+    height: 18px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.section-projects {
+    padding-bottom: 61px;
+}
+
+.section-projects__h1 {
+    margin-bottom: 65px;
+}
+
+
+.section-projects__project-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
 }
 
 @media(max-width: 1024px) {
@@ -526,6 +606,72 @@ p:last-child {
 
     .section-contacts__h1 {
         margin-top: 52px;
+    }
+
+    .section-main__text-block {
+        width: 100%;
+    }
+
+    .hero--main {
+        margin-bottom: 92px;
+    }
+
+    .section-main__h1 {
+        margin-bottom: 52px;
+    }
+
+    .section-main {
+        padding-bottom: 88px;
+    }
+
+    .section-process__h1 {
+        margin-bottom: 60px;
+    }
+    
+    .section-process__graph {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr minmax(auto, 64px) 2fr minmax(auto, 64px) 2fr;        /* Ширина в половину экрана */
+        margin: 0 auto; 
+    }
+
+    .arrow-block {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .arrow-block__img {
+        height: 18px;
+        width: 50%;
+        object-fit: cover;
+        object-position: right;
+        transform: rotate(90deg);
+    }
+
+    .ball-block {
+        max-height: 208px;
+        margin: 0 auto;
+    }
+
+    .arrow-block__img {
+        width: 64px;
+    }
+
+    .section-process {
+        padding-bottom: 92px;
+    }
+
+    .section-projects__h1 {
+        margin-bottom: 60px;
+    }
+
+    .section-projects__project-links {
+        grid-template-columns: 1fr;
+    }
+
+    .section-projects {
+        padding-bottom: 84px;
     }
 }
 
